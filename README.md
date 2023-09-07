@@ -1,32 +1,34 @@
-Weather App ⛅  
-WeatherApp is a web application that allows users to view weather forecasts for a specific city. The app uses React and Redux for state management.
+# ⛅ Weathering With Me
+A weather app built using React and the OpenWeatherMap API to display current weather conditions and forecasts for various cities.
 
-How it works
-Users can input the city name, retrieve real-time weather data, and see an animated icon representing the weather conditions, and other informations about the city weather..
+## 📑 Table of Contents
+- [Description](description)
+- [Features](features)
+- [Installation](installation)
+- [Usage](usage)
+- [Technologies Used](technologies-used)
+- [Contributing](contributing)
 
-Languages:-
-HTML5
-CSS3
-Javascript ES6
-JSX
-What i used
-React
-Redux for state management
-API
-API documentation OpenWeatherApp
+## ¶ Description
+The Weather App is a React-based web application that allows users to search for cities and view the current weather conditions as well as the daily forecast for the upcoming days. The app utilizes two main APIs: the OpenWeatherMap API to fetch weather data and the GeoDB Cities API from RapidAPI to provide autocomplete suggestions for city names.
 
-Installation
-First of all, you need Node.js installed. If you don't have it, you can download it here: Node.js
 
-1 - Clone the repository
-git clone https://github.com/Rahul10092002/weather.git
 
-2 - Install the dependencies
-npm install
+## ⭐️ Features
+- Search for cities and retrieve weather data.
+- Display current weather conditions including temperature, description, and icon.
 
-3 - Build it!
-npm run build
+## &#x1F527; Installation
+1. Clone the repository: `git clone https://github.com/Rahul10092002/weather.git`
+2. Navigate to the project directory: `cd weather-app`
+3. Install the required dependencies: `npm install` <br>
+   (<b>PS</b>: You can use `npm install --force` if the dependencies is outdated and then update it manually)
 
-4 - Open in the browser
-npm start
-and go to http://localhost:3000 to view it in your browser.
+## 💻 Technologies Used
+- [React](https://react.dev/)
+- [RapidAPI](https://rapidapi.com) and [OpenWeatherMap](https://openweathermap.org/)
+
+## 👤 Contributing
+Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to create an issue or submit a pull request.
+
+
