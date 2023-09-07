@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.App {
+  width: 100%;
+  background-image: url("https://t4.ftcdn.net/jpg/05/03/66/07/240_F_503660747_RgbukwUTYt1cjgoUs40HY3WeVFI8KAe8.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+
+.temperature {
+  font-weight: 500;
+  font-size: 65px;
+  width: auto;
+  letter-spacing: -5px;
+  margin: 10px 0;
+}
+
+.details {
+  width: 100%;
+  padding-left: 25px;
+}
+
+.parameter-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.parameter-label {
+  text-align: left;
+  font-weight: 450;
+  font-size: 14px;
+}
+.parameter-value {
+  text-align: right;
+  font-weight: 550;
+  font-size: 14px;
+}
+
+/* adafffffffffffffffffffffffffffffffff */
+
+/* WeatherDetails.css */
+.weather-details {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.current-weather {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.current-weather img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.condition {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.temperature {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.wind-humidity {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+
+/* Navbar.css */
+.navbar {
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-container {
+  display: flex;
+}
+
+.search-container input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.search-container button {
+  background: transparent;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
